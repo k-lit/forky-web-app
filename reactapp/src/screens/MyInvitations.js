@@ -118,7 +118,7 @@ const MyInvitations = ({ userState }) => {
                   <FiCheckCircle
                     style={{ marginTop: 3, marginRight: 5, color: "#F9B34C" }}
                   />
-                  <h6>Adresse du rendez-vous:</h6>
+                  <h6>Adresse:</h6>
                   <p className="Invit-text"> {invit.adresse}</p>
                 </div>
                 <div
@@ -198,6 +198,7 @@ const MyInvitations = ({ userState }) => {
                 borderColor: "#F9B34C",
                 marginTop: 10,
                 padding: 0,
+                width: 550,
               }}
             >
               <div>
@@ -256,7 +257,7 @@ const MyInvitations = ({ userState }) => {
                   <FiCheckCircle
                     style={{ marginTop: 3, marginRight: 5, color: "#418581" }}
                   />
-                  <h6>Adresse du rendez-vous:</h6>
+                  <h6>Adresse:</h6>
                   <p className="Invit-text"> {invit.adresse}</p>
                 </div>
                 <div

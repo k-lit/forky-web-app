@@ -30,20 +30,6 @@ const InvitationScreen = ({ location, userState }) => {
   const [address, setAddress] = useState("");
   const [errorMessage, setErrorMessage] = useState(false);
 
-  // const onChange = (event, selectedDate) => {
-  //   const currentDate = selectedDate || date;
-  //   setShow();
-  //   currentDate.setHours(23, 59, 59);
-  //   console.log(currentDate);
-  //   if (currentDate < Date.now()) {
-  //     setDateError(true);
-  //     setDate(currentDate);
-  //   } else {
-  //     setDateError(false);
-  //     setDate(currentDate);
-  //   }
-  // };
-
   const showMode = (currentMode) => {
     setShow(!show);
     setMode(currentMode);
@@ -78,7 +64,6 @@ const InvitationScreen = ({ location, userState }) => {
     2: "2h",
   };
 
-  function onChangeDate(date) {}
   const { Meta } = Card;
   const userInfo = location.state;
 
@@ -398,11 +383,6 @@ const InvitationScreen = ({ location, userState }) => {
           </Card>
         </div>
         <div>
-          {errorMessage && (
-            <p style={{ color: "#eb4d4b", textAlign: "center" }}>
-              Vérifiez que toutes les informations aient bien été remplies.
-            </p>
-          )}
           <div
             style={{
               display: "flex",

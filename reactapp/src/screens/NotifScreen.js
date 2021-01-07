@@ -40,7 +40,8 @@ const NotifScreen = ({}) => {
                 margin: 20,
               }}
             >
-              <h6> Bientôt disponible ! </h6>
+              <h5> Aucune notifications reçues...</h5>
+              <p>Bientôt disponible en version web !</p>
             </div>
           </div>
         </Card>
@@ -64,7 +65,7 @@ const NotifScreen = ({}) => {
           type="primary"
           size="large"
         >
-          <Link to="/home"> Retour à l'accueil </Link>
+          <Link to="/"> Retour à l'accueil </Link>
         </Button>
       </div>
       <Footer />

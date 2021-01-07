@@ -223,7 +223,7 @@ const UserProfileScreen = ({ userState, location }) => {
           type="primary"
           size="large"
         >
-          <Link to="/home"> Retour à l'accueil </Link>
+          <Link to="/"> Retour à l'accueil </Link>
         </Button>
       </div>
       <Footer />
